@@ -1,0 +1,21 @@
+{
+    "name": "ArangoDB-API",
+    "version": "1.0.0",
+    "description": "This service provides a swagger generated documentation.",
+    "engines": {
+        "arangodb": "^3.0.0"
+    },
+    "author": "Heiko Kernbach",
+    "license": "Apache 2",
+    "main": "main.js",
+    "defaultDocument": "index.html",
+    "scripts": {
+        "setup": "scripts/setup.js",
+        "teardown": "scripts/teardown.js"
+    },
+    "files": {
+      "/": "assets/index.html",
+      "/index.html": "assets/index.html"
+    },
+    "tests": "test/**/*.js"
+}
